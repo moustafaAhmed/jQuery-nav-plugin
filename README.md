@@ -14,6 +14,7 @@ git clone https://github.com/EgAlexDeveloper/jQuery-nav-plugin.git
     <script type="text/javascript" src="js/msNav.js"></script>
     
 2- attach them to the html file you use
+<br />
 3- be sure from adding the nav container to the html and a unique id for each element you use like this
 
     <!-- Nav Bar container -->
@@ -23,12 +24,12 @@ git clone https://github.com/EgAlexDeveloper/jQuery-nav-plugin.git
     <div id="secondDiv"></div>
     <div id="lastDiv"></div>
     
-4- in the jquery ready function applay the plugin to the document and add all plugins paramaters
+4- in the jquery ready function applay the plugin to the document and add all plugin paramaters
 
     <script type="text/javascript">
         (function($) {
             $(document).MSNAV({
-                // the elements than we need to applay the nav plugin on it
+                // the elements that we need to applay the nav plugin on it
                 elements: ["#firstDiv", "#secondDiv", "#lastDiv"],
                 // the element that will wrap the bullets
                 nav: $('#nav'),
